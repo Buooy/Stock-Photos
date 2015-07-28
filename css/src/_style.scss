@@ -1,0 +1,157 @@
+$img_dir : '../img/snippets/minimised/';
+$linear_gradient : rgba(30, 30, 30, 0.70),rgba(30, 30, 30, 0.70);
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background: url('http://subtlepatterns.com/patterns/restaurant_icons.png');
+  background-size: contain;
+
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f9f9f9;
+}
+
+/* Image CSS
+-------------------------------------------------- */
+.sites{
+	
+	a{
+		text-align:center;
+		height: 100px;
+		text-decoration: none;
+		
+		li{
+			background-size: 100% !important;
+			background-position: center !important;
+	    	background-repeat: no-repeat;
+			color: white;
+			font-size: 30px;
+			line-height: 80px;
+			letter-spacing: 1px;
+		}
+	}
+	
+	#pexels{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/pexels.jpg');
+	}
+	#stocksnap{
+		background:
+		    url($img_dir+'/stocksnap.jpg');
+	}
+	#unsplash{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/unsplash.jpg');
+	}
+	#picjumbo{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/picjumbo.jpg');
+	}
+	#startupstockphotos{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/startupstockphotos.jpg');
+	}
+	#gratisography{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/gratisography.jpg');
+	}
+	#twnsnd{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/twnsnd.jpg');
+	}
+	#splitshire{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/splitshire.jpg');
+	}
+	#stocka{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/stocka.jpg');
+	}
+	#goodstock{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/goodstock.jpg');
+	    
+	}
+	#instastock{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/instastock.jpg');
+	    
+	}
+	#stockphotos{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/stockphotos.jpg');
+	    
+	}
+	#fancycrave{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/fancycrave.jpg');
+	}
+	#kaboompics{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/kaboompics.jpg');
+	}
+	#isorepublic{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/isorepublic.jpg');
+	}
+	#getrefe{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/getrefe.jpg');
+	}
+	#littlevisuals{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/littlevisuals.jpg');
+	}
+	#subtlepatterns{
+		background: 
+			linear-gradient($linear_gradient),
+		    url($img_dir+'/subtlepatterns.png');
+	}
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.container {
+  width: auto;
+  max-width: 1000px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+ul li{
+    padding-top: 3px;
+    padding-bottom:3px;
+}
+#buooy-logo{
+    width: 130px;
+    border-radius: 3px;
+}
