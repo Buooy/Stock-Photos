@@ -1,5 +1,5 @@
 $img_dir : '../img/snippets/minimised/';
-$linear_gradient : rgba(30, 30, 30, 0.70),rgba(30, 30, 30, 0.70);
+$linear_gradient : rgba(120, 120, 120, 0),rgba(120, 120, 120, 0);
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -11,7 +11,8 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   background: url('http://subtlepatterns.com/patterns/restaurant_icons.png');
-  background-size: contain;
+  background-size: repeat;
+  font-family: Lato;
 
 }
 .footer {
@@ -29,18 +30,31 @@ body {
 	
 	a{
 		text-align:center;
-		height: 100px;
+		height: 250px;
 		text-decoration: none;
 		
 		li{
-			background-size: 100% !important;
-			background-position: center !important;
-	    	background-repeat: no-repeat;
-			color: white;
-			font-size: 30px;
-			line-height: 80px;
-			letter-spacing: 1px;
+            &{
+    			background-size: 100% !important;
+    			background-position: center !important;
+    	    	background-repeat: no-repeat;
+    			line-height: 150px;
+                margin-bottom: 30px;
+            }
+            &:hover{
+                background:
+                linear-gradient($linear_gradient),
+            }
+            span{
+                color: #262626;
+    			font-size: 30px;
+                font-weight: 400;
+                background-color: rgba(200,200,200, 0.8);
+                padding: 10px 40px;
+                border-radius: 30px;
+            }
 		}
+        
 	}
 	
 	#pexels{
